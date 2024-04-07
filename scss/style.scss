@@ -1,0 +1,11 @@
+@import './block/header';
+@import './block/main';
+@import './block/footer';
+
+body{
+    background-color: #3f3f3f;
+    &>h1{
+        font-size: 15px;
+        color: aqua;
+    }
+}
